@@ -27,7 +27,7 @@ int main()
 	#endif	
 	
     // To check whether a given number is pallindrome or not 
-    
+    // Approach -> 1441 l->r and r->l compare using recursive stack 
 	int t;
 	cin>>t;
 	while(t>0)
