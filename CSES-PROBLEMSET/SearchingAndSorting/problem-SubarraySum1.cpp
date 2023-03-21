@@ -41,6 +41,10 @@ int main()
 	// }
 
 	// approach 2 using hashmap --> maintaining prefix sum 
+
+	// This method will work both for positive and negative elements.
+	// If you have only positiv elements they we can use prefixSum method .
+
 	ll sum=0;
 	map<ll,ll> mpp;
 
