@@ -76,11 +76,110 @@ class List
 		}
 
 
+		// Insertion(data,pos)
+		// - At particular position
+		// - At starting position same as push_front()
+		// - at last position same as push_back()
+		void insertion(int data , int pos)
+		{
+			if(pos==0)
+			{
+				push_front(data);
+				return ;
+			}
+			Node* temp = head;
+			for(int jump = 1 ;jump<=pos-1;jump++)
+			{
+				temp = temp->next;
+			}
+			Node* n = new Node(data);
+			n->next = temp -> next;
+			temp->next = n;
+		}
+
+		// Deletion(position)
+		// - pop_front() --> removes the first element 
+		// - pop_back() --> removes the last element 
+		// - remove(pos) --> removes the element from given position
+		// pop_front()
+		void pop_front()
+		{
+			if(head==NULL)
+			{
+				// if no element are present 
+				return;
+			}
+			Node* temp = head ; //copy head to the temporary memory 
+			head = head->next; // moving head to the next memory location 
+			temp->next = NULL; // changing the link 
+			delete temp;
+		}
+
+
+		// pop_back()
+		void pop_back()
+		{
+			if(head==NULL)
+			{
+				return;
+			}
+			if(head->next==NULL)
+			{
+				Node*temp = head;
+				head = head->next;
+				delete temp;
+				return;
+			}
+			Node* temp = tail;
+			Node* second = head;
+			while(second->next->next!=NULL)
+			{
+				second = second->next;
+			}
+			tail = second;
+			delete tail->next;
+			tail->next = NULL;
+		}
+
+
+
+		// remove(pos) -->
+		void remove(int pos)
+		{
+			if(head==NULL)
+			{
+				return ;
+			}
+			Node* temp = head;
+			if(pos==0)
+			{
+				head = temp->next;
+				temp->next=NULL;
+				delete temp;
+				return;
+			}
+
+			for(int jump = 1;jump<=pos-1;jump++)
+			{
+				temp = temp->next;
+			}
+			Node* n = temp->next;
+			temp->next = n->next;
+			n->next=NULL;
+			delete n;
+		}
+
+		// Searching Element in a  linked list 
+		// 1. Iteratively 
+		// 2. Recursively
+		
+
 		// begin() --> returns current head position of the ll
 		Node* begin()
 		{
 			return head;
 		}
+
 
 		// print linked list
 		void PrintLinkedList()
