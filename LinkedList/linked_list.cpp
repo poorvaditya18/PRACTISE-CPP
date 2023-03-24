@@ -32,9 +32,11 @@ int main()
 	l.PrintLinkedList();
     cout<<'\n';
 
-	cout<<l.searchIterative(l.begin(),10)<<endl;
+	// cout<<l.searchIterative(l.begin(),10)<<endl;
 
-    cout<<l.searchRecursive(l.begin(),7)<<endl;
+    // cout<<l.searchRecursive(l.begin(),7)<<endl;
+
+    cout<<l.getIndexRecursiveSearch(0)<<endl;
  
 	return 0;
 

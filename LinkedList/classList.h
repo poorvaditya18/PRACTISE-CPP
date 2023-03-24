@@ -207,6 +207,38 @@ class List
 		}
 
 
+		// Return index of the Linked list element 
+		int searchHelper(Node* start,int key)
+		{
+			// base case -->
+			if(start==NULL)
+			{
+				return -1;
+			}
+
+			// value matches 
+			if(start->getData()==key)
+			{
+				return 0;
+			}
+
+			int subIdx = searchHelper(start->next,key);
+			if(subIdx==-1)
+			{
+				return -1;
+			}
+			return subIdx+1;
+
+		}
+
+		int getIndexRecursiveSearch(int key)
+		{
+			int idx = searchHelper(head,key);
+			return idx;
+		}
+
+
+
 		// begin() --> returns current head position of the ll
 		Node* begin()
 		{
