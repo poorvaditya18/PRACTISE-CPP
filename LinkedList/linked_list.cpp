@@ -25,11 +25,16 @@ int main()
 	// l.pop_back();
 	// l.pop_back();
 	// l.pop_back();
-	l.remove(0);
-	l.remove(2);
+	// l.remove(0);
+	// l.remove(2);
+
 	// printing link list -->
 	l.PrintLinkedList();
+    cout<<'\n';
 
+	cout<<l.searchIterative(l.begin(),10)<<endl;
+
+    cout<<l.searchRecursive(l.begin(),7)<<endl;
  
 	return 0;
 

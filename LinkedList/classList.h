@@ -170,9 +170,42 @@ class List
 		}
 
 		// Searching Element in a  linked list 
+
 		// 1. Iteratively 
+		bool searchIterative(Node* head , int key)
+		{
+
+			// Linear Search --> O(n)
+			Node* temp = head;
+			while(temp!=NULL)
+			{
+				if(temp->getData()==key)
+				{
+					return true;
+				}
+				temp = temp->next;
+			}
+			return false;
+		}
+
 		// 2. Recursively
-		
+		bool searchRecursive(Node*temp,int key)
+		{
+			//base case 
+			if(temp==NULL)
+			{
+				return false;
+			}
+			if(temp->getData() == key)
+			{
+				return true;
+			}
+			else
+			{
+				return searchRecursive(temp->next,key);
+			}
+		}
+
 
 		// begin() --> returns current head position of the ll
 		Node* begin()
