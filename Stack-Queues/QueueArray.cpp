@@ -26,12 +26,8 @@ int main()
     cout<<"\n";
     qt.print();
     cout<<"\n";
-    cout<<qt.top();
-    cout<<"\n";
-    cout<<qt.empty();
-    cout<<"\n";
-    cout<<qt.full();
-	
+    qt.push(15);
+    qt.print();
 	return 0;
 
 }
