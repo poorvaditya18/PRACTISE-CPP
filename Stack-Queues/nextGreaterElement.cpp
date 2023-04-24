@@ -17,16 +17,18 @@ vector<int> nextGreaterElements(vector<int>& nums)
             }
             if(i<n)
             {
+            	// if the stack is not empty then top most is the nge 
                 if(st.empty()==false)
                 {
                     nge[i] = st.top();
                 }
                 else
                 {
+                	// else mark that index as -1
                     nge[i]= -1;
                 }
             }
-            st.push(nums[i%n]);
+            st.push(nums[i%n]); //push the current element
         }
        return nge;
     }
