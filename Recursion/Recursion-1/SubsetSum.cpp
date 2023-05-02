@@ -12,9 +12,9 @@ void subsetSum(vector<int> &arr,int n,int idx,int sum,vector<int> &res)
     }
 
 
-    subsetSum(arr,n,idx+1,sum,res); // not choosed 
+    
     subsetSum(arr,n,idx+1,sum+arr[idx],res); // choosen
-
+    subsetSum(arr,n,idx+1,sum,res); // not choosed 
 }
 
 
