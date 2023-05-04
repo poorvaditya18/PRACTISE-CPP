@@ -11,7 +11,7 @@
 
 #### Root to leaf path problems:-
 
-1.https://leetcode.com/problems/binary-tree-paths/ EASY ✅  <br>  
+✅1.https://leetcode.com/problems/binary-tree-paths/ EASY   <br>  
 2.https://leetcode.com/problems/path-sum-iii/submissions/   <br> 
 3.https://leetcode.com/problems/smallest-string-starting-from-leaf/  <br> 
 4.https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/    <br>           
@@ -27,9 +27,9 @@
 
 #### Leaves related problem:-
 
-1.https://leetcode.com/problems/sum-of-left-leaves/ EASY <br> ✅
-2.https://leetcode.com/problems/leaf-similar-trees/ EASY <br> ✅
-3.https://leetcode.com/problems/deepest-leaves-sum/ <br> ✅
+✅1.https://leetcode.com/problems/sum-of-left-leaves/ EASY <br> 
+✅2.https://leetcode.com/problems/leaf-similar-trees/ EASY <br> 
+✅3.https://leetcode.com/problems/deepest-leaves-sum/ <br> 
 4.https://leetcode.com/problems/delete-leaves-with-a-given-value/ <br> 
 
 #### Level order traversal:-
@@ -39,9 +39,9 @@
 3.https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/ <br>
 4.https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/ <br>
 5.https://leetcode.com/problems/frog-position-after-t-seconds/ <br>
-6.https://leetcode.com/problems/even-odd-tree/ <br> ✅
-7.https://leetcode.com/problems/binary-tree-level-order-traversal/ <br> ✅
-8.https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ <br> ✅
+✅6.https://leetcode.com/problems/even-odd-tree/ <br> 
+✅7.https://leetcode.com/problems/binary-tree-level-order-traversal/ <br> 
+✅8.https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ <br> 
 9.https://leetcode.com/problems/binary-tree-level-order-traversal-ii/ <br>
 10.https://leetcode.com/problems/binary-tree-right-side-view/ <br>
 11.https://leetcode.com/problems/n-ary-tree-level-order-traversal/ <br>
