@@ -43,12 +43,12 @@
 ✅7.https://leetcode.com/problems/binary-tree-level-order-traversal/ <br> 
 ✅8.https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ <br> 
 9.https://leetcode.com/problems/binary-tree-level-order-traversal-ii/ <br>
-10.https://leetcode.com/problems/binary-tree-right-side-view/ <br>
+✅10.https://leetcode.com/problems/binary-tree-right-side-view/ <br>
 11.https://leetcode.com/problems/n-ary-tree-level-order-traversal/ <br>
 12.https://leetcode.com/problems/find-largest-value-in-each-tree-row/ <br>
 13.https://leetcode.com/problems/add-one-row-to-tree/ <br>
-14.https://leetcode.com/problems/average-of-levels-in-binary-tree/ <br>
-15.https://leetcode.com/problems/maximum-width-of-binary-tree/ <br> 
+✅14.https://leetcode.com/problems/average-of-levels-in-binary-tree/ <br>
+✅15.https://leetcode.com/problems/maximum-width-of-binary-tree/ <br> 
 
 #### Node deletion:-
 
