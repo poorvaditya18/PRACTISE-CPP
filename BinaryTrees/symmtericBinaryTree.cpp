@@ -13,6 +13,8 @@ using namespace std;
 
 class Solution {
 public:
+
+	// mirror -> left -> right, right ->left 
    bool isSymmtericHelp(TreeNode* leftNode , TreeNode* rightNode)
    {
         if(leftNode==NULL || rightNode ==NULL) return leftNode== rightNode;
